@@ -96,100 +96,221 @@ This is the most important line in the brand.
 
 ### Hero Section
 
+**Eyebrow/Badge:** `UAE Freelance Licensing`
+
 **Headline:**
 > You have the skill. We'll make it legal.
 
 **Subheadline:**
-> Get your UAE freelance licence in days, not weeks.
-> No sponsor. No office. No complications.
+> Getting a UAE freelance licence feels complicated — different free zones, hidden costs, visa confusion. UAE Filing cuts through all of it. We handle the paperwork, you keep building.
 
-**Primary CTA:** `Get Your Licence`
-**Secondary CTA:** `Check Eligibility`
+**Primary CTA:** `Get your licence now`
+**Secondary CTA:** `Check eligibility →`
 
 **Trust Signals:**
-* 500+ Freelancers Licensed
-* 3-5 Working Days
-* 0% Personal Income Tax
-* Bank Setup Included
+* No NOC needed
+* 0% income tax
+* Bank account included
+* 100% visa eligible
 
 ### Navigation
 
-**Links:** Home, Services, Professions, Industries, Pricing, FAQ, Contact
-**Navbar CTA:** `Get Started`
+**Links:** Pain Points, Why Us, Services, Industries, How It Works, Pricing, Reviews, FAQ
+**Navbar CTA:** `Get started`
 
 ### Pain Points Section
 
+**Eyebrow:** The Real Problem
 **Headline:**
-> The freelance dream is simple. The setup is not.
+> We know exactly what stopped you
 
 **Subheadline:**
-> Traditional agencies are expensive, government portals are complex, and banking setup is filled with hidden roadblocks. We change that.
+> You're not alone. 90% of freelancers we talk to hit the same wall. Here's what it looks like:
+
+**Pain Point Cards:**
+* **10 Different Answers:** Googled "UAE freelance licence" and got conflicting advice pointing to 5 different free zones.
+* **Hidden Costs Shock:** Quoted AED 5,000 upfront. Invoice arrived at AED 15,000+. Nobody told you about the "extras."
+* **Wrong Activity Category:** Unsure if your job qualifies. No one explained which activity code fits your work.
+* **Agent Red Flags:** Found an agent. Something felt off. Zero transparency. They vanished after payment.
+* **Visa Confusion:** On a spouse visa. Can you even freelance? Nobody could answer definitively.
+* **Bank Rejection:** Freelancers apply for business accounts and get rejected. Which banks actually accept freelancers?
+
+**Note:** If 3+ of these sound like you — you're exactly who we built UAE Filing for. ✓
 
 ### Why UAE Filing Section
 
+**Eyebrow:** The Difference
 **Headline:**
-> A premium legal advisor in your pocket.
+> Most agents confuse you. We clear it up.
 
 **Subheadline:**
-> We combine legal expertise with high-end technology, ensuring your licence is processed with complete speed, zero paperwork, and absolute cost transparency.
+> Here's why freelancers choose us over free zone websites and generic agents.
+
+**Comparison List:**
+* **Typical Agent:** Low price advertised, high cost invoiced | Pushes expensive free zone, ignores fit | Generic advice. Same for everyone | Vanishes after payment | Bank account? Renewal? Your problem
+* **UAE Filing:** Full cost upfront. No surprises | Perfect match for your profession | Personalized for your visa + goals | Advisor with you until done | Bank setup + renewal included
+
+**Feature Table:**
+* **Upfront Full Price:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (✗)
+* **Right Zone Match:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (⚠)
+* **Dedicated Advisor:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (⚠)
+* **Bank Account Help:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (✗)
+* **Visa Included:** UAE Filing (✓), Free Zone Direct (+Fee), Generic Agent (+Fee)
+* **Renewal Handled:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (✗)
+* **WhatsApp Support:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (⚠)
+* **Free Consultation:** UAE Filing (✓), Free Zone Direct (✗), Generic Agent (✗)
+
+### Statistics Section (New)
+
+* **3–5:** Working days to licence
+* **0%:** Personal income tax in UAE
+* **500+:** Freelancers we've helped
 
 ### Services Section
 
-* **Freelance Licence:** Get legally licensed to work as a freelancer in the UAE.
-* **Licence + Visa:** Secure your licence and residency process through one guided service.
-* **Complete Setup:** A complete freelance setup experience from licensing to banking support.
+**Eyebrow:** What We Handle
+**Headline:**
+> Everything in one place. Nothing to figure out alone.
+
+**Subheadline:**
+> From first call to your first paid client — complete support.
+
+**Service Cards:**
+* **Freelance Licence:** Official UAE permit. Valid across all approved free zones. Your name. One activity included.
+* **Business Bank Account:** We match you with freelancer-friendly UAE banks. We guide you through application.
+* **2-Year Residence Visa:** Live and work in UAE legally. Tied to your freelance licence. Can sponsor dependents.
+* **Emirates ID:** Processed automatically. No separate application. Included in visa package.
+* **Dedicated Advisor:** One person you can call/WhatsApp. Answer your questions in plain English. On speed dial.
+* **Annual Renewal:** We remind you. We handle the paperwork. No lapsing. No surprise fines.
 
 ### Professions Section
 
+**Eyebrow:** Who This Is For
 **Headline:**
-> Tailored for digital professionals.
+> Your profession. Your licence.
 
 **Subheadline:**
-> We support designers, developers, writers, marketers, and consultants. Select your activity and establish a legally recognized UAE freelance business.
+> We support freelancers across 50+ professions. Here are the most common.
+
+**Tags:**
+* **Primary:** Software Developer, Graphic Designer, Content Writer, Marketing Consultant, Photographer, Video Editor
+* **Secondary:** Personal Trainer, Financial Advisor, Project Manager, Tutor, Music Producer, Consultant, Healthcare Expert, E-commerce, + 30+ more professions
+
+**CTA:** `Start free consultation`
 
 ### Industries Section
 
+**Eyebrow:** Industries We Serve
 **Headline:**
-> Officially licensed across global industries.
+> Your sector. Fully covered.
 
 **Subheadline:**
-> From technology and media to education and creative arts, get licensed under the correct economic sector with no operational friction.
+> We've licensed freelancers across every major UAE industry. Yours is next.
+
+**Industry Cards:**
+* **Technology & Software:** Developers, cybersecurity, SaaS builders, tech consultants.
+* **Creative & Media:** Filmmakers, designers, photographers, animators, producers.
+* **Marketing & Advertising:** Strategists, digital marketers, copywriters, media buyers.
+* **Education & Training:** Tutors, coaches, trainers, curriculum designers.
+* **Health & Wellness:** Trainers, nutritionists, therapists, wellness coaches.
+* **Finance & Consulting:** Advisors, accountants, consultants, analysts.
+* **Construction & Real Estate:** Project managers, designers, architects, consultants.
+* **E-commerce & Retail:** Online sellers, marketplace managers, e-commerce specialists.
 
 ### Process Section
 
-* **Step 1:** `Choose Your Package` (Select the setup path that matches your goals.)
-* **Step 2:** `Submit Documents` (Upload the required documents securely.)
-* **Step 3:** `Application Processing` (We handle the paperwork and submission process.)
-* **Step 4:** `Receive Your Licence` (Start operating legally in the UAE.)
+**Eyebrow:** The Process
+**Headline:**
+> Four simple steps. From confusion to done.
 
-### Pricing CTAs
+**Subheadline:**
+> Most people finish everything in 2–3 weeks. Some faster. Zero surprises along the way.
 
-* **Starter:** `Choose Starter`
-* **Licence + Visa:** `Choose Licence + Visa`
-* **Complete Setup:** `Choose Complete Setup`
+**Steps:**
+* **1. Talk to an advisor (Free. No commitment.):** 30-minute call. Tell us your profession, visa, and goals. We match you to your perfect free zone and licence type. No guesswork. No upselling.
+* **2. Submit documents (Checklist provided. Clear.):** Passport copy, photo, simple forms. We give you an exact checklist. Nothing more. We verify everything before submission to avoid rejections.
+* **3. Approval & tracking (Real-time updates via WhatsApp.):** We submit. We track. You get WhatsApp updates at every stage — no radio silence. You know exactly where you stand.
+* **4. Licence + Next Steps (3–5 working days. Complete.):** Licence issued in 3–5 working days. We help you open your bank account. We guide your visa application. You're fully operational.
+
+### Pricing Section
+
+**Eyebrow:** Transparent Pricing
+**Headline:**
+> No hidden fees. Ever.
+
+**Subheadline:**
+> What you see is what you pay. Full transparency. No surprise invoices.
+
+**Packages:**
+* **Starter (AED 5,555 - licence only):** Features: Freelance licence (1 activity), Free zone registration, Document prep, Advisor support, Free tax registration. (CTA: Choose Plan →)
+* **Licence + Visa (AED 12,500 - licence + 2-year residence visa):** Features: Freelance licence (1 activity), 2-year residence visa, Emirates ID, Medical test support, Entry permit & status change, Dedicated advisor. (CTA: Start Here)
+* **Complete Setup (AED 18,000 - all-in, year one):** Features: Everything in Licence + Visa, Bank account setup, Health insurance, Flexi-desk access, Renewal reminder, Priority support. (CTA: Choose Plan →)
+
+**Note:** Exact pricing depends on free zone, activity, visa requirements. Talk to an advisor for your quote. The consultation is always free.
 
 ### Testimonials Section
 
+**Eyebrow:** Client Success
 **Headline:**
-> Backed by hundreds of successful freelancers.
+> Built for freelancers, verified by freelancers.
 
 **Subheadline:**
-> Hear from digital professionals who bypassed the bureaucracy and launched their businesses in the UAE.
+> Join hundreds of professionals who bypassed the bureaucracy and launched their businesses.
+
+**Reviews:**
+* **Alex M. (Software Engineer - Verified Client):** "I wasted three weeks trying to figure out which free zone was right for me. UAE Filing sorted it on a 20-minute call and I had my licence 4 days later."
+* **Sarah K. (Marketing Consultant - Verified Client):** "The pricing transparency is what sold me. Another agent quoted me 5k and then sent an invoice for 14k. UAE Filing's price was exactly what they said on day one."
+* **David L. (Videographer - Verified Client):** "They didn't just get me the licence, they actually walked me into the bank and got my business account opened. That alone was worth the fee."
 
 ### FAQ Section
 
-**Headline:** Questions, answered.
-**Subheadline:** Everything you need to know before getting started.
+**Eyebrow:** Common Questions
+**Headline:**
+> Everything you need to know.
+
+**Q&As:**
+* **Do I need a local sponsor to get a freelance licence?** No. UAE freelance licences grant you 100% ownership. You do not need a local sponsor or partner.
+* **Can I open a corporate bank account with this licence?** Yes. A freelance licence legally establishes you as a sole establishment, allowing you to open a business bank account. We guide you through this exact process.
+* **Do I have to rent physical office space?** No. Freelance licences come with a flexi-desk or virtual lease agreement, meaning you can work from anywhere without the cost of physical office rent.
+* **Can I sponsor my family (spouse/children)?** Yes. Once your freelance residency visa is issued and you meet the minimum salary requirements, you can sponsor your dependents.
+* **Will I have to pay taxes in the UAE?** The UAE has a 0% personal income tax rate. Corporate Tax (9%) only applies if your net profit exceeds AED 375,000 per year. We provide basic tax guidance during setup.
 
 ### Contact Section
 
-**Headline:** Let's make your freelance journey official.
-**Subheadline:** Tell us about your situation and we'll guide you through the next steps.
+**Eyebrow:** Ready To Start?
+**Headline:**
+> Let's figure this out together.
+
+**Paragraph:**
+> 30-minute call. Free. No payment until you decide to move forward. We'll tell you exactly which licence fits, what it costs, and how long it takes.
+
+**Trust Points:**
+* No commitment required
+* Plain English answers
+* Response in < 2 hours
+* Your documents stay secure
+
+**Form Title:** Book your free call
+
+**Form Elements:**
+* **Labels:** Full Name *, Email *, WhatsApp / Phone *, Your profession *, Current visa status
+* **Placeholders:** Your name, you@email.com, +971 50 000 0000, e.g. Developer, Designer, Consultant
+* **Helper Text:** We'll use this on the call, For confirmation, We'll message you here first, Helps us prepare for your call
+* **Dropdown Options:** On employment visa (UAE), On spouse / parent visa, On visit visa, Outside UAE, Other / Prefer not to say
+* **CTA:** Confirm my consultation →
+
+**Form Success State:**
+* **Title:** We've got your details!
+* **Message:** An advisor will reach out within 2 hours on WhatsApp or email.<br><br>**What happens next:** We'll suggest the right licence for you, show exact costs, and answer every question — no pressure, no payment.
+* **CTA:** Message us on WhatsApp →
 
 ### Footer
 
-* **Tagline:** `You have the skill. We'll make it legal.`
-* **Column Headers:** `Company`, `Services`, `Resources`, `Contact`, `Legal`
+* **Tagline:** The freelance licence specialist that shows you the full cost upfront, matches you to the right free zone, and stays with you from application to your first payment.
+* **Column 1 (Services):** Freelance Licence, Residence Visa, Bank Account, Emirates ID, Annual Renewal
+* **Column 2 (Company):** Why Us, How It Works, Client Reviews, Pricing, Contact
+* **Column 3 (Support):** FAQ, Free Consultation, WhatsApp, Privacy Policy, Terms
+* **Bottom Text:** © 2025 UAE Filing. Made for freelancers in the UAE. | 🔒 100% secure · ⭐ 500+ clients · 💬 WhatsApp support
 
 ---
 

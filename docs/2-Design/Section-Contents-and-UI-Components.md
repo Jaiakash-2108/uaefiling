@@ -124,7 +124,7 @@ The homepage follows this chronological psychological journey:
 * Headline
 * Subheadline
 * CTA Group (Primary & Ghost)
-* Trust Signals (4 metrics displayed in a grid or row to replace traditional badges)
+* Trust Signals (No NOC needed, 0% income tax, Bank account included, 100% visa eligible displayed in a grid or row to replace traditional badges)
 
 **Right Content (Hero Object):**
 * **Component:** Floating UAE Freelance Licence Certificate.
@@ -138,68 +138,74 @@ The homepage follows this chronological psychological journey:
 ### 02 — Pain Points Section
 
 **Layout:** 3–4 card grid.
-**Content Theme:** Unsure which licence, Visa confusion, Banking challenges, Paperwork.
+**Content Theme:** 10 Different Answers, Hidden Costs Shock, Wrong Activity Category, Agent Red Flags, Visa Confusion, Bank Rejection.
 **Style:** White cards, Gold icons, Soft shadow. 
 **Animation:** Staggered card reveal on scroll.
 
 ### 03 — Why UAE Filing
 
 **Layout:** Two-column layout.
-**Left Side:** Problem comparison table (Luxury styling).
-**Right Side:** "Why UAE Filing" Advantage Cards (No hidden steps, transparent pricing).
+**Left Side:** Problem comparison table (Luxury styling) featuring "Typical Agent vs UAE Filing".
+**Right Side:** "Why UAE Filing" Checkmark Feature Table (Upfront Full Price, Right Zone Match, Dedicated Advisor, Bank Account Help, Visa Included, Renewal Handled, WhatsApp Support, Free Consultation).
 
-### 04 — Services Section
+### 04 — Statistics Section (New)
+
+**Layout:** 3 column grid.
+**Content Theme:** 3-5 Working days, 0% Tax, 500+ Freelancers.
+**Style:** Dark Obsidian background, Gold numbers.
+
+### 05 — Services Section
 
 **Layout:** Grid format.
-**Service Card Structure:** Icon, Title, Description, CTA.
+**Service Card Structure:** Icon, Title (Freelance Licence, Business Bank Account, 2-Year Residence Visa, Emirates ID, Dedicated Advisor, Annual Renewal), Description.
 **Hover State:** Lift up `translateY(-8px)` and apply a Gold border.
 
-### 05 — Professions Section
+### 06 — Professions Section
 
-**Layout:** Pill card grid (Developers, Designers, Writers, etc.)
+**Layout:** Pill card grid (Software Developer, Graphic Designer, Content Writer, Marketing Consultant, Photographer, Video Editor, etc.)
 **Style:** Rounded pill cards with hover lift. Staggered reveal.
 
-### 06 — Industries Section
+### 07 — Industries Section
 
-**Layout:** Standard grid of Industry cards (Technology, Creative, Education, etc.)
+**Layout:** Standard grid of Industry cards (Technology & Software, Creative & Media, Marketing & Advertising, Education & Training, Health & Wellness, Finance & Consulting, Construction & Real Estate, E-commerce & Retail).
 **Style:** White cards with a gold icon and soft shadow.
 
-### 07 — Process Section
+### 08 — Process Section
 
 **Layout:** Horizontal timeline on Desktop, Vertical timeline on Mobile.
-**Steps:** 4 process steps.
+**Steps:** 4 process steps (Talk to an advisor, Submit documents, Approval & tracking, Licence + Next Steps).
 **Style:** Gold numbered circles. Step reveal on scroll.
 
-### 08 — Pricing Section
+### 09 — Pricing Section
 
 **Layout:** Standard pricing card row.
 **Packages:** Starter, Licence + Visa (Featured), Complete Setup.
 **Featured Card Style:** Champagne Background with a Gold Badge.
 **Card Structure:** Package Name, Price, Features list, CTA.
 
-### 09 — Testimonials Section
+### 10 — Testimonials Section
 
-**Layout:** Horizontal auto-scroll (marquee style).
+**Layout:** Horizontal auto-scroll (marquee style) or static grid.
 **Card Structure:** Real Photo, Name, Profession, Review text.
 **Style:** White rounded card, Gold stars.
 **Animation:** Slow, luxury continuous scroll.
 
-### 10 — FAQ Section
+### 11 — FAQ Section
 
 **Layout:** Large Accordion list.
 **Style:** White background, large rounded cards.
 **Expanded State:** Reveals content with a Gold left border, opacity fade, and height animation (300ms).
 
-### 11 — Contact Section
+### 12 — Contact Section
 
 **Layout:** Two-column layout.
 **Style:** High contrast (Dark Obsidian background).
-**Left Side:** Headline, Contact information, Support channels.
+**Left Side:** Headline, Descriptive Paragraph, Trust Checkmarks.
 **Right Side:** White Form Card containing inputs and a Gold CTA.
 
-### 12 — Footer
+### 13 — Footer
 
-**Layout:** Multi-column (Company, Services, Resources, Contact, Legal).
+**Layout:** Multi-column (Services, Company, Support).
 **Style:** Dark Obsidian background, White text, Gold hover states.
 
 ---
