@@ -121,6 +121,7 @@ As a design recommendation, every production table should eventually define the 
 * `id` (UUID, Primary Key)
 * `profile_id` (UUID, Foreign Key to `profiles.id`)
 * `type` (Enum: 'Assistance', 'Callback')
+* `description` (Text, stores the user's message)
 * `status` (Text)
 * `created_at` (Timestamp)
 
