@@ -1,0 +1,229 @@
+# UAE Filing — Section Contents & UI Components
+
+## Document Metadata & Governance
+
+**Status:** Active – Single Source of Truth (SSOT)
+**Version:** 1.0
+**Owner:** Design Team
+**Last Updated:** June 2026
+**Review Cycle:** Quarterly
+
+## Purpose
+
+This document defines every section, component, interaction, and structural layout across the UAE Filing website.
+
+This is the master architectural blueprint for UI/UX Design and Frontend Development. 
+*Note: For exact string values, copywriting, and phrasing, refer to the [UX Copy & Microcopy Framework](./UX-Copy-and-Microcopy-Framework.md). For visual constants like colors, fonts, and shadow values, refer to the [Design Tokens & Theme Architecture](./Design-Tokens-and-Theme-Architecture.md).*
+
+---
+
+## UI Architecture & Layout System
+
+To ensure a highly consistent and premium feel across all devices, the layout adheres to a strict responsive grid system:
+
+* **Container Max Width:** `1280px` for optimal readability on ultra-wide screens. Content remains centered.
+* **Responsive Breakpoints:** 
+  * Mobile (default): `< 768px` (Vertical stacking, full-width cards).
+  * Tablet: `768px - 1024px` (2-column grids).
+  * Desktop: `> 1024px` (Standard 3-column grids, horizontal split layouts).
+* **Grid System:** 12-column grid standard for all structural alignment.
+
+---
+
+## Component Architecture Standards
+
+Components must be built for maximum reusability and scalability:
+
+* **Composition over Inheritance:** UI components should wrap `children` to remain highly flexible.
+* **Encapsulation:** Components must not rely on parent margins. Spacing between components must be handled by the parent layout container (e.g., using `gap` or Flexbox/Grid).
+* **Prop Signatures:** Utilize standardized props for variations (e.g., `variant="primary" | "secondary" | "ghost"`).
+
+---
+
+## Component States
+
+Every interactive component must account for the following standard states:
+
+* **Default:** The baseline appearance.
+* **Hover:** Distinct visual feedback (e.g., lift `translateY(-4px)` or background color shift).
+* **Focus:** Triggered via keyboard navigation; must display a distinct focus ring.
+* **Active (Pressed):** Scale down slightly (`scale(0.98)`) to mimic physical compression.
+* **Disabled:** Reduced opacity (e.g., `50%`) with `cursor-not-allowed`.
+* **Loading:** Display a skeleton loader or spinner. Buttons must preserve their width to prevent layout shifts.
+* **Empty State:** For data-driven views (e.g., Client Portal document lists), display a well-designed empty illustration with a clear CTA to guide the user.
+* **Error State:** High-contrast red feedback text with a clear, actionable resolution path.
+
+---
+
+## Accessibility (a11y) Guidelines
+
+The UAE Filing platform must be usable by all clients:
+
+* **Semantic HTML:** Use native `<button>`, `<a>`, `<header>`, `<main>`, and `<footer>` tags. Do not use `<div>` for interactive elements.
+* **Focus States:** Every interactive element must have a clearly visible `:focus-visible` ring (e.g., a solid Gold ring with a slight offset). Never set `outline: none` without providing a custom focus state.
+* **Keyboard Navigation:** All dropdowns, accordions (FAQ), and tabs must be fully navigable via `Tab`, `Enter`, `Space`, and Arrow keys.
+* **ARIA Attributes:** Use `aria-expanded` on the FAQ accordion and `aria-label` for icon-only buttons (like the floating WhatsApp button).
+* **Color Contrast:** All text (especially within forms, placeholders, and Ghost buttons) must meet WCAG AA contrast ratios (at least 4.5:1 for normal text).
+
+---
+
+## Interaction & Animation Patterns
+
+Animations should feel premium and deliberate, never overwhelming:
+
+* **Page Transitions:** Subtle fade-ins rather than aggressive slide-ins.
+* **Scroll-Linked Reveals:** Staggered fade-up (`opacity: 0` to `opacity: 1`, `translateY: 20px` to `0`) as elements enter the viewport.
+* **Micro-interactions:** Buttons and cards should respond instantly to user input (e.g., magnetic button hover effects or subtle border glow).
+
+---
+
+## Page Architecture
+
+The homepage follows this chronological psychological journey:
+
+1. Hero
+2. Pain Points
+3. Why UAE Filing
+4. Services
+5. Professions
+6. Industries
+7. Process
+8. Pricing
+9. Testimonials
+10. FAQ
+11. Contact
+12. Footer
+
+---
+
+## Global Components
+
+### Floating Navbar
+* **Style:** Glassmorphism (Sticky, blur, rounded pill).
+* **CTA:** Primary Gold Pill Button.
+
+### Buttons
+* **Primary:** Gold Pill Button.
+* **Secondary:** Pill radius, Solid White (#FFFFFF), Black text, Soft shadow.
+* **Ghost:** Transparent Pill, bordered.
+
+### Forms & Cards
+* **Forms:** Rounded inputs, large padding, subtle borders.
+* **Cards:** White background, rounded corners, soft shadow, hover lift `translateY(-8px)`.
+
+---
+
+## Section Implementations
+
+### 01 — Hero Section
+
+**Layout:** Two-column split layout.
+
+**Left Content:**
+* Floating Navbar (top)
+* Headline
+* Subheadline
+* CTA Group (Primary & Ghost)
+* Trust Signals (4 metrics displayed in a grid or row to replace traditional badges)
+
+**Right Content (Hero Object):**
+* **Component:** Floating UAE Freelance Licence Certificate.
+* **Purpose:** Tangible visual representation of the business service.
+* **Animation:** Infinite float loop (`translateY(-8px)` to `translateY(+8px)` over 8s).
+
+**Package Switcher (Part of Hero):**
+* **Style:** Premium pill tabs or `● ○ ○` indicator.
+* **Functionality:** Changes Price, Description, Licence Card Variant, and Background Glow Effect on click.
+
+### 02 — Pain Points Section
+
+**Layout:** 3–4 card grid.
+**Content Theme:** Unsure which licence, Visa confusion, Banking challenges, Paperwork.
+**Style:** White cards, Gold icons, Soft shadow. 
+**Animation:** Staggered card reveal on scroll.
+
+### 03 — Why UAE Filing
+
+**Layout:** Two-column layout.
+**Left Side:** Problem comparison table (Luxury styling).
+**Right Side:** "Why UAE Filing" Advantage Cards (No hidden steps, transparent pricing).
+
+### 04 — Services Section
+
+**Layout:** Grid format.
+**Service Card Structure:** Icon, Title, Description, CTA.
+**Hover State:** Lift up `translateY(-8px)` and apply a Gold border.
+
+### 05 — Professions Section
+
+**Layout:** Pill card grid (Developers, Designers, Writers, etc.)
+**Style:** Rounded pill cards with hover lift. Staggered reveal.
+
+### 06 — Industries Section
+
+**Layout:** Standard grid of Industry cards (Technology, Creative, Education, etc.)
+**Style:** White cards with a gold icon and soft shadow.
+
+### 07 — Process Section
+
+**Layout:** Horizontal timeline on Desktop, Vertical timeline on Mobile.
+**Steps:** 4 process steps.
+**Style:** Gold numbered circles. Step reveal on scroll.
+
+### 08 — Pricing Section
+
+**Layout:** Standard pricing card row.
+**Packages:** Starter, Licence + Visa (Featured), Complete Setup.
+**Featured Card Style:** Champagne Background with a Gold Badge.
+**Card Structure:** Package Name, Price, Features list, CTA.
+
+### 09 — Testimonials Section
+
+**Layout:** Horizontal auto-scroll (marquee style).
+**Card Structure:** Real Photo, Name, Profession, Review text.
+**Style:** White rounded card, Gold stars.
+**Animation:** Slow, luxury continuous scroll.
+
+### 10 — FAQ Section
+
+**Layout:** Large Accordion list.
+**Style:** White background, large rounded cards.
+**Expanded State:** Reveals content with a Gold left border, opacity fade, and height animation (300ms).
+
+### 11 — Contact Section
+
+**Layout:** Two-column layout.
+**Style:** High contrast (Dark Obsidian background).
+**Left Side:** Headline, Contact information, Support channels.
+**Right Side:** White Form Card containing inputs and a Gold CTA.
+
+### 12 — Footer
+
+**Layout:** Multi-column (Company, Services, Resources, Contact, Legal).
+**Style:** Dark Obsidian background, White text, Gold hover states.
+
+---
+
+## Application UI Integrations
+
+### WhatsApp Integration
+* **Placement:** Persistent Floating Button.
+
+### Client Portal / Dashboard
+*(Detailed Dashboard UI layouts are to be defined, but generally feature warm backgrounds, premium cards, and minimal complexity. Refer to Component States for empty/loading behaviors).*
+
+---
+
+## Success Criteria
+
+Every section should answer a specific psychological question for the user (e.g., Hero -> "What is this?", FAQ -> "What if I still have concerns?").
+
+When all sections work together, the website must feel like a premium advisory experience guiding freelancers toward legal establishment.
+
+---
+
+## Related Documents
+* [UX Copy & Microcopy Framework](./UX-Copy-and-Microcopy-Framework.md)
+* [Design Tokens & Theme Architecture](./Design-Tokens-and-Theme-Architecture.md)
+* [Organic User Journey](../1-Strategy/Organic-User-Journey.md)
+* [System Sitemap & Routing](../3-Engineering/System-Sitemap-and-Routing.md)
