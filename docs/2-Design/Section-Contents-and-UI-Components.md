@@ -117,23 +117,23 @@ The homepage follows this chronological psychological journey:
 
 ### 01 — Hero Section
 
-**Layout:** Two-column split layout.
+**Layout:** Two-column split layout for main content, followed by a full-width bottom row.
 
 **Left Content:**
-* Floating Navbar (top)
+* Eyebrow Badge (Contains a CSS-based Circular UAE Flag element)
 * Headline
 * Subheadline
 * CTA Group (Primary & Ghost)
-* Trust Signals (No NOC needed, 0% income tax, Bank account included, 100% visa eligible displayed in a grid or row to replace traditional badges)
 
 **Right Content (Hero Object):**
 * **Component:** Floating UAE Freelance Licence Certificate.
+* **Layout:** Contains a Top Header, a Center Image block (Photorealistic image of a professional freelancer in Dubai), and a Bottom Info block.
 * **Purpose:** Tangible visual representation of the business service.
-* **Animation:** Infinite float loop (`translateY(-8px)` to `translateY(+8px)` over 8s).
+* **Animation:** Infinite float loop (`translateY(-10px)` to `translateY(+10px)` over 6s), hardware accelerated via `will-change: transform` to prevent browser lag.
+* **Package Switcher:** Premium pill tabs below the card. Changes Price and Description with a crossfade (`AnimatePresence`) utilizing a fixed min-height container to eliminate layout shift (shaking).
 
-**Package Switcher (Part of Hero):**
-* **Style:** Premium pill tabs or `● ○ ○` indicator.
-* **Functionality:** Changes Price, Description, Licence Card Variant, and Background Glow Effect on click.
+**Bottom Row (Full Width):**
+* **Trust Signals:** (No NOC needed, 0% income tax, Bank account included, 100% visa eligible) displayed in a single, perfectly spaced continuous row spanning the entire screen width underneath both left and right content.
 
 ### 02 — Pain Points Section
 

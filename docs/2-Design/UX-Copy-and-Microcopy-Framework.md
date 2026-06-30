@@ -102,7 +102,7 @@ This is the most important line in the brand.
 > You have the skill. We'll make it legal.
 
 **Subheadline:**
-> Getting a UAE freelance licence feels complicated — different free zones, hidden costs, visa confusion. UAE Filing cuts through all of it. We handle the paperwork, you keep building.
+> Getting a UAE freelance licence feels complicated. Different free zones, hidden costs, visa confusion. UAE Filing cuts through all of it. We handle the paperwork, you keep building.
 
 **Primary CTA:** `Get your licence now`
 **Secondary CTA:** `Check eligibility →`
