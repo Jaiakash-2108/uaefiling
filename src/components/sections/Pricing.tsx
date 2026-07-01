@@ -75,7 +75,7 @@ export default function Pricing() {
   ];
 
   return (
-    <section id="pricing" ref={sectionRef} className="w-full pt-[50px] pb-[80px] lg:pt-[60px] lg:pb-[100px] px-6 bg-[#FFFFFF] text-[#180F09]">
+    <section id="pricing" ref={sectionRef} className="w-full pt-[50px] pb-[40px] lg:pt-[60px] lg:pb-[50px] px-6 bg-[#FFFFFF] text-[#180F09]">
       <div className="max-w-[1200px] mx-auto">
         
         {/* Header */}

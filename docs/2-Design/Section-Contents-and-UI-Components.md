@@ -223,10 +223,17 @@ The homepage follows this chronological psychological journey:
 
 ### 10 — Testimonials Section
 
-**Layout:** Horizontal auto-scroll (marquee style) or static grid.
-**Card Structure:** Real Photo, Name, Profession, Review text.
-**Style:** White rounded card, Gold stars.
-**Animation:** Slow, luxury continuous scroll.
+**Layout:** Interactive Avatar Capsule Switcher block.
+**Features:**
+- Centered eyebrow header with Sparkles icon (`Client Success`) in minimal gold style.
+- Centered title in a single straight line: `Built for freelancers, verified by freelancers.`
+- 5 Gold Star icons above the review quote.
+- Testimonial Quote: Large, elegant italic quote text that updates dynamically based on the active client.
+- Switcher Pill Dock: A minimalist transparent inline switcher at the bottom.
+  - Active item: Sleek black pill capsule (`bg-[#180F09]`) displaying the active profile picture, the client's name, and a gold checkmark icon for verification.
+  - Inactive items: Circular profile pictures next to it with subtle borders and hover opacity animations.
+**Style:** Minimalist styling with a beige background canvas (`bg-[#FEFCF7]`). The content card box is white (`bg-[#FFFFFF]`) with a thin border and soft ambient shadow.
+**Interactions:** Clicking/hovering on inactive avatars smoothly transitions the active capsule position via Framer Motion layouts and fades/slides the new testimonial content.
 
 ### 11 — FAQ Section
 
