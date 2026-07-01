@@ -135,6 +135,8 @@ This is the most important line in the brand.
 * **Visa Confusion:** On a spouse visa. Can you even freelance? Nobody could answer definitively.
 * **Bank Rejection:** Freelancers apply for business accounts and get rejected. Which banks actually accept freelancers?
 
+**Microcopy (Tooltip):** `Click to expand`
+
 **Note:** If 3+ of these sound like you — you're exactly who we built UAE Filing for. ✓
 
 ### Why UAE Filing Section

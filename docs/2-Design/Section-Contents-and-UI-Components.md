@@ -137,10 +137,11 @@ The homepage follows this chronological psychological journey:
 
 ### 02 — Pain Points Section
 
-**Layout:** 3–4 card grid.
+**Layout:** Full-width Horizontal Expanding Accordion Carousel (Desktop) & Vertical Grid (Mobile).
 **Content Theme:** 10 Different Answers, Hidden Costs Shock, Wrong Activity Category, Agent Red Flags, Visa Confusion, Bank Rejection.
-**Style:** White cards, Gold icons, Soft shadow. 
-**Animation:** Staggered card reveal on scroll.
+**Style:** Wide expanding cards (540px height) featuring premium background images with grayscale and gold tint overlay. High readability via white gradient overlays on active state. 
+**Interaction:** Click to expand. Inactive cards collapse to 90px wide. Features a Windows 11 style static hover tooltip ("Click to expand") with a smooth ease-out popup animation upon mouse enter.
+**Animation:** Staggered card reveal on scroll. Smooth layout transitions (500ms ease) between active and inactive states.
 
 ### 03 — Why UAE Filing
 
