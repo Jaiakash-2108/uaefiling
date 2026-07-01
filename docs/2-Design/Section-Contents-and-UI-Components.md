@@ -198,9 +198,15 @@ The homepage follows this chronological psychological journey:
 
 ### 08 — Process Section
 
-**Layout:** Horizontal timeline on Desktop, Vertical timeline on Mobile.
-**Steps:** 4 process steps (Talk to an advisor, Submit documents, Approval & tracking, Licence + Next Steps).
-**Style:** Gold numbered circles. Step reveal on scroll.
+**Layout:** Interactive Stepper timeline layout on Desktop (horizontal timeline progress bar) and Mobile (vertical step indicator stack).
+**Features:**
+- Centered eyebrow header with Sparkles icon (`The Process`) in minimal gold style.
+- Centered title in a single straight line: `Four simple steps. From confusion to done.`
+- 4-Step Stepper indicators (1, 2, 3, 4) connected by a dynamic gold progress indicator line.
+- Active details card: Displays subtitle, step name, and description in the left column; displays a customized list of deliverables with gold checkmarks in the right column.
+- Interactive Navigation: Prev/Next buttons at the bottom.
+**Style:** Minimalist styling with a cream/beige background canvas (`bg-[#FEFCF7]`). The details card is pure white (`bg-[#FFFFFF]`) with soft border and faint shadow.
+**Interactions:** Selecting step badges updates the active progress line and renders details card via smooth Framer Motion height and fade transitions.
 
 ### 09 — Pricing Section
 

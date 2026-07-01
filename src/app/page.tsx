@@ -5,6 +5,7 @@ import WhyUaeFiling from "@/components/sections/WhyUaeFiling";
 import Services from "@/components/sections/Services";
 import Professions from "@/components/sections/Professions";
 import Industries from "@/components/sections/Industries";
+import Process from "@/components/sections/Process";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <Professions />
         <Industries />
+        <Process />
       </main>
     </>
   );
