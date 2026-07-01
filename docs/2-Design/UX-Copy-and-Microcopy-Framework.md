@@ -310,7 +310,7 @@ This is the most important line in the brand.
 * **Column 1 (Services):** Freelance Licence, Residence Visa, Bank Account, Emirates ID, Annual Renewal
 * **Column 2 (Company):** Why Us, How It Works, Client Reviews, Pricing, Contact
 * **Column 3 (Support):** FAQ, Free Consultation, WhatsApp, Privacy Policy, Terms
-* **Bottom Text:** © 2025 UAE Filing. Made for freelancers in the UAE. | 🔒 100% secure · ⭐ 500+ clients · 💬 WhatsApp support
+* **Bottom Text:** © 2026 UAE Filing. Made for freelancers in the UAE. | 🔒 100% secure · ⭐ 500+ clients · 💬 WhatsApp support
 
 ---
 
