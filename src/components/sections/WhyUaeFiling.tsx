@@ -39,8 +39,8 @@ export default function WhyUaeFiling() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2,
-        delayChildren: 0.3,
+        staggerChildren: 0.08,
+        delayChildren: 0.1,
       },
     },
   };
@@ -50,7 +50,7 @@ export default function WhyUaeFiling() {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { duration: 0.6, ease: "easeOut" },
+      transition: { duration: 0.5, ease: "easeOut" },
     },
   };
 
@@ -338,8 +338,8 @@ function StatCounter({ value, label, prefix, suffix, delay }: StatCounterProps) 
   const [hasAnimated, setHasAnimated] = useState(false);
 
   const springValue = useSpring(0, {
-    stiffness: 50,
-    damping: 20,
+    stiffness: 160,
+    damping: 26,
   });
 
   useEffect(() => {

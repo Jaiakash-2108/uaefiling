@@ -8,6 +8,7 @@ import Industries from "@/components/sections/Industries";
 import Process from "@/components/sections/Process";
 import Pricing from "@/components/sections/Pricing";
 import Testimonials from "@/components/sections/Testimonials";
+import FAQ from "@/components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Process />
         <Pricing />
         <Testimonials />
+        <FAQ />
       </main>
     </>
   );

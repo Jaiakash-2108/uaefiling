@@ -237,9 +237,17 @@ The homepage follows this chronological psychological journey:
 
 ### 11 — FAQ Section
 
-**Layout:** Large Accordion list.
-**Style:** White background, large rounded cards.
-**Expanded State:** Reveals content with a Gold left border, opacity fade, and height animation (300ms).
+**Layout:** Split 2-column layout.
+**Left Column:**
+- Pill Badge: `FAQ` with a thin border.
+- Heading: `Everything you need to know.` in Serif font.
+- Paragraph: Detailed summary about freelance licensing questions.
+- Call-to-Action Button: White button with a thin border saying `Any questions? Reach out` with a gold phone icon.
+**Right Column:**
+- Accordion stack of 5 Q&A rows separated by thin grey dividers.
+- Animated chevron icon indicators that rotate on click.
+- Answers expand and collapse smoothly using Framer Motion heights.
+**Style:** Minimalist style on pure white background (`bg-[#FFFFFF]`).
 
 ### 12 — Contact Section
 
