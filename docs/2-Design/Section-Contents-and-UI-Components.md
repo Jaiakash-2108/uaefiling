@@ -210,10 +210,16 @@ The homepage follows this chronological psychological journey:
 
 ### 09 — Pricing Section
 
-**Layout:** Standard pricing card row.
-**Packages:** Starter, Licence + Visa (Featured), Complete Setup.
-**Featured Card Style:** Champagne Background with a Gold Badge.
-**Card Structure:** Package Name, Price, Features list, CTA.
+**Layout:** 3-column pricing card grid on Desktop, stacking vertically on Mobile.
+**Features:**
+- Centered eyebrow header with Sparkles icon (`Transparent Pricing`) in minimal gold style.
+- Centered title in a single straight line: `No hidden fees. Ever.`
+- Interactive Switcher Toggle: Switches pricing between "Pay in Full" and "4 Split Payments" (Tabby installments) with smooth blur transitions.
+- 3 Plan Cards: Starter (AED 5,555 or AED 1,389/mo), Licence + Visa (Featured - AED 12,500 or AED 3,125/mo), and Complete Setup (AED 18,000 or AED 4,500/mo).
+- Elevated Middle Card: Taller, with a black top badge (`★ RECOMMENDED`) and dark action button. Shorter cards use minimal grey background buttons.
+- Details checklist with custom gold checkmark bullets in each card.
+- Government licensing and free zone disclaimer note at the bottom.
+**Style:** Minimalist white cards (`bg-[#FFFFFF]`) with thin grey borders (`border-[rgba(24,15,9,0.06)]`) and light shadows. The section background is pure white.
 
 ### 10 — Testimonials Section
 

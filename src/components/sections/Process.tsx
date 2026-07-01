@@ -70,7 +70,7 @@ export default function Process() {
   ];
 
   return (
-    <section id="process" ref={sectionRef} className="w-full pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] px-6 bg-[#FEFCF7] text-[#180F09]">
+    <section id="process" ref={sectionRef} className="w-full pt-[60px] pb-[50px] lg:pt-[80px] lg:pb-[60px] px-6 bg-[#FEFCF7] text-[#180F09]">
       <div className="max-w-[1000px] mx-auto">
         
         {/* Header */}

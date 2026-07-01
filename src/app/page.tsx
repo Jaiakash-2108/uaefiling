@@ -6,6 +6,7 @@ import Services from "@/components/sections/Services";
 import Professions from "@/components/sections/Professions";
 import Industries from "@/components/sections/Industries";
 import Process from "@/components/sections/Process";
+import Pricing from "@/components/sections/Pricing";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Professions />
         <Industries />
         <Process />
+        <Pricing />
       </main>
     </>
   );
