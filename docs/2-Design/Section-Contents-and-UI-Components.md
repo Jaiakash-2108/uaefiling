@@ -161,9 +161,21 @@ The homepage follows this chronological psychological journey:
 
 ### 05 — Services Section
 
-**Layout:** Grid format.
-**Service Card Structure:** Icon, Title (Freelance Licence, Business Bank Account, 2-Year Residence Visa, Emirates ID, Dedicated Advisor, Annual Renewal), Description.
-**Hover State:** Lift up `translateY(-8px)` and apply a Gold border.
+**Layout:** Asymmetric "Layout Grid" / Bento Box layout on Desktop (4-column, 3-row grid with varying card spans, height `750px`). Stacks vertically on mobile (minimum card height `240px`).
+**Cards & Spizing:**
+- Freelance Licence: Spans 2 columns, 2 rows.
+- Business Bank Account: Spans 1 column, 1 row.
+- 2-Year Residence Visa: Spans 1 column, 1 row.
+- Emirates ID: Spans 2 columns, 1 row. Uses a custom generated minimal card mockup image.
+- Dedicated Advisor: Spans 2 columns, 1 row.
+- Annual Renewal: Spans 2 columns, 1 row.
+**Visual Style:** High-quality background images per card, subtle gold tint (`mix-blend-multiply`), dark gradient overlay. White typography overlay.
+**Interactions:** On hover:
+- Image scales up slightly (`scale-105` over `700ms`).
+- Gradient overlay darkens.
+- Title moves up.
+- Description text slides up from the bottom (`translate-y-[120%]`) and fades in.
+- Minimal top-right arrow icon indicator fades in.
 
 ### 06 — Professions Section
 

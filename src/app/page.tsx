@@ -2,6 +2,7 @@ import { FloatingNavbar } from "@/components/layout/FloatingNavbar";
 import { Hero } from "@/components/sections/Hero";
 import PainPoints from "@/components/sections/PainPoints";
 import WhyUaeFiling from "@/components/sections/WhyUaeFiling";
+import Services from "@/components/sections/Services";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <PainPoints />
         <WhyUaeFiling />
+        <Services />
       </main>
     </>
   );

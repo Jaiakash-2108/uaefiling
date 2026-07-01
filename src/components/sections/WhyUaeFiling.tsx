@@ -130,7 +130,7 @@ export default function WhyUaeFiling() {
     <section
       id="why-us"
       ref={sectionRef}
-      className="w-full pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[100px] px-6 bg-[#FEFCF7] text-[#180F09] overflow-hidden relative"
+      className="w-full pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] px-6 bg-[#FEFCF7] text-[#180F09] overflow-hidden relative"
     >
       {/* Decorative background elements */}
       <motion.div

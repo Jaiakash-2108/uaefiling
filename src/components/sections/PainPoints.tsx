@@ -53,7 +53,7 @@ export default function PainPoints() {
   };
 
   return (
-    <section className="bg-[#FEFCF7] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[64px] overflow-hidden relative">
+    <section className="bg-[#FEFCF7] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] overflow-hidden relative">
       
       {/* Windows 11 Style Follow-Cursor Tooltip */}
       <motion.div
