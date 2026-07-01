@@ -53,7 +53,7 @@ export default function PainPoints() {
   };
 
   return (
-    <section className="bg-[#FEFCF7] pt-[60px] pb-[80px] lg:pt-[80px] lg:pb-[160px] overflow-hidden relative">
+    <section className="bg-[#FEFCF7] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[64px] overflow-hidden relative">
       
       {/* Windows 11 Style Follow-Cursor Tooltip */}
       <motion.div
@@ -113,13 +113,26 @@ export default function PainPoints() {
       {/* Full-width Carousel Container */}
       <div className="w-full px-4 md:px-8">
         {/* Tablet & Desktop Accordion */}
-        <div className="hidden md:flex flex-row gap-[16px] h-[540px] w-full max-w-[1600px] mx-auto pt-10">
+        <motion.div 
+          className="hidden md:flex flex-row gap-[16px] h-[540px] w-full max-w-[1600px] mx-auto pt-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1, transition: { staggerChildren: 0.1 } }
+          }}
+        >
           {painPoints.map((point, index) => {
             const isActive = activeIndex === index;
             const Icon = point.icon;
 
             return (
-              <div
+              <motion.div
+                variants={{
+                  hidden: { opacity: 0, y: 30 },
+                  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+                }}
                 key={`accordion-${index}`}
                 onMouseEnter={(e) => {
                   if (!isActive) {
@@ -210,18 +223,34 @@ export default function PainPoints() {
                     </p>
                   </div>
                 </div>
-              </div>
-              </div>
+                </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
 
         {/* Mobile Static Grid (<768px) */}
-        <div className="grid md:hidden grid-cols-1 sm:grid-cols-2 gap-4">
+        <motion.div 
+          className="grid md:hidden grid-cols-1 sm:grid-cols-2 gap-4"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+          }}
+        >
           {painPoints.map((point, index) => {
             const Icon = point.icon;
             return (
-              <div key={`mobile-${index}`} className="relative h-[280px] rounded-[24px] overflow-hidden flex flex-col justify-end p-6 border border-[rgba(0,0,0,0.06)] shadow-soft">
+              <motion.div 
+                key={`mobile-${index}`} 
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
+                }}
+                className="relative h-[280px] rounded-[24px] overflow-hidden flex flex-col justify-end p-6 border border-[rgba(0,0,0,0.06)] shadow-soft"
+              >
                 <img src={point.image} alt={point.title} className="absolute inset-0 w-full h-full object-cover grayscale opacity-80" />
                 <div className="absolute inset-0 bg-[#CF9A35]/10 mix-blend-multiply pointer-events-none" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#180F09]/95 via-[#180F09]/50 to-transparent" />
@@ -237,14 +266,20 @@ export default function PainPoints() {
                     {point.body}
                   </p>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
       </div>
 
       {/* Bottom Note & CTA */}
-      <div className="mt-16 flex flex-col items-center px-6">
+      <motion.div 
+        className="mt-16 flex flex-col items-center px-6"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
         <div className="bg-[rgba(207,154,53,0.12)] rounded-[24px] border-l-[3px] border-[#CF9A35] py-4 px-6 mb-10 max-w-2xl mx-auto">
           <p className="font-sans font-semibold text-[#B8862E] text-center">
             If 3+ of these sound like you — you're exactly who we built UAE Filing for. ✓
@@ -257,7 +292,7 @@ export default function PainPoints() {
         >
           Get My Licence
         </button>
-      </div>
+      </motion.div>
 
     </section>
   );

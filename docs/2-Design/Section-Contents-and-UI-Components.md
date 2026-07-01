@@ -145,15 +145,19 @@ The homepage follows this chronological psychological journey:
 
 ### 03 — Why UAE Filing
 
-**Layout:** Two-column layout.
-**Left Side:** Problem comparison table (Luxury styling) featuring "Typical Agent vs UAE Filing".
-**Right Side:** "Why UAE Filing" Checkmark Feature Table (Upfront Full Price, Right Zone Match, Dedicated Advisor, Bank Account Help, Visa Included, Renewal Handled, WhatsApp Support, Free Consultation).
+**Layout:** Three-column split layout (Left list, Center Image, Right list).
+**Header:** Centered Title and description.
+**Left Side:** "Typical Agent" problem list with strikethrough styling and red cross icons.
+**Center:** Minimal workspace image with a floating "Start Free Consultation" CTA button and decorative circular outlines with parallax effect.
+**Right Side:** "UAE Filing" solution list in a premium white card with gold checkmarks and a top gold gradient border.
+**Animation:** Staggered list reveals and image scale-in.
 
-### 04 — Statistics Section (New)
+### 04 — Statistics Section
 
-**Layout:** 3 column grid.
+**Layout:** 3-column grid integrated at the bottom of the "Why UAE Filing" section.
 **Content Theme:** 3-5 Working days, 0% Tax, 500+ Freelancers.
-**Style:** Dark Obsidian background, Gold numbers.
+**Style:** Minimalist style (No cards, no shadows, no icons). Numbers with prefix/suffix inline, separated by subtle vertical dividers (`|`).
+**Animation:** Framer motion animated number counting (`useSpring`, `useTransform`).
 
 ### 05 — Services Section
 
