@@ -179,13 +179,22 @@ The homepage follows this chronological psychological journey:
 
 ### 06 — Professions Section
 
-**Layout:** Pill card grid (Software Developer, Graphic Designer, Content Writer, Marketing Consultant, Photographer, Video Editor, etc.)
-**Style:** Rounded pill cards with hover lift. Staggered reveal.
+**Layout:** Centered static flex-wrap tag cloud layout with centered search input ("Search your profession...") and category tabs (All, Tech, Creative, Consulting, Wellness).
+**Features:**
+- Interactive search and category filter.
+- Primary professions highlighted with a distinct gold border (`border-2 border-[#CF9A35]`) and bold text.
+- Secondary professions styled as standard clean cards with subtle borders.
+**Interactions:** Hovering over a tag pill scales it up slightly and lifts it (`hover:-translate-y-0.5`). Transitions on search query changes.
 
 ### 07 — Industries Section
 
-**Layout:** Standard grid of Industry cards (Technology & Software, Creative & Media, Marketing & Advertising, Education & Training, Health & Wellness, Finance & Consulting, Construction & Real Estate, E-commerce & Retail).
-**Style:** White cards with a gold icon and soft shadow.
+**Layout:** Standard grid layout on Desktop (4-columns), Tablet (2-columns), and Mobile (1-column stack).
+**Features:**
+- Centered eyebrow header with Sparkles icon (`Industries We Serve`) in minimal gold style.
+- Centered title in a single straight line: `Your sector. Fully covered.`
+- 8 Industry Cards: Technology & Software, Creative & Media, Marketing & Advertising, Education & Training, Health & Wellness, Finance & Consulting, Construction & Real Estate, E-commerce & Retail.
+**Style:** Minimalist pure white cards (`bg-[#FFFFFF]`) with ultra-thin soft borders (`border-[rgba(24,15,9,0.06)]`). No colored background boxes. Faint ambient drop shadows.
+**Interactions:** Hovering over a card lifts it slightly (`hover:-translate-y-1`), transitions borders to a gold tint (`hover:border-[#CF9A35]/40`), scales up the icon (`scale-105`), and renders a soft shadow depth.
 
 ### 08 — Process Section
 

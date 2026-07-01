@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, Wallet, FileX, ShieldAlert, HelpCircle, Ban } from 'lucide-react';
+import { MessageSquare, Wallet, FileX, ShieldAlert, HelpCircle, Ban, Sparkles } from 'lucide-react';
 
 const painPoints = [
   {
@@ -98,9 +98,10 @@ export default function PainPoints() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-center mb-16 max-w-3xl mx-auto"
         >
-          <p className="text-[0.75rem] uppercase tracking-[0.14em] text-[#B8862E] font-sans font-semibold mb-4">
+          <span className="text-[0.75rem] uppercase tracking-[0.14em] text-[#B8862E] font-sans font-semibold mb-4 flex items-center gap-2 justify-center">
+            <Sparkles className="w-3.5 h-3.5" />
             The Real Problem
-          </p>
+          </span>
           <h2 className="font-serif text-[#180F09] font-semibold text-3xl md:text-4xl lg:text-5xl mb-6">
             We know exactly what stopped you
           </h2>

@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { motion, useInView, Variants } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function Services() {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -73,7 +73,8 @@ export default function Services() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="text-[0.75rem] uppercase tracking-[0.14em] text-[#B8862E] font-sans font-semibold mb-4">
+          <span className="text-[0.75rem] uppercase tracking-[0.14em] text-[#B8862E] font-sans font-semibold mb-4 flex items-center gap-2">
+            <Sparkles className="w-3.5 h-3.5" />
             What We Handle
           </span>
           <h2 className="font-serif font-semibold text-3xl md:text-4xl lg:text-5xl mb-6">
