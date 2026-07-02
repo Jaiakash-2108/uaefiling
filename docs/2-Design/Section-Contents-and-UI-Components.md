@@ -121,19 +121,17 @@ The homepage follows this chronological psychological journey:
 
 **Left Content:**
 * Eyebrow Badge (Contains a CSS-based Circular UAE Flag element)
-* Headline
+* Headline (3-line formatting)
 * Subheadline
-* CTA Group (Primary & Ghost)
+* CTA Group (Primary: Gold Pill button, Secondary: White Pill button)
 
-**Right Content (Hero Object):**
-* **Component:** Floating UAE Freelance Licence Certificate.
-* **Layout:** Contains a Top Header, a Center Image block (Photorealistic image of a professional freelancer in Dubai), and a Bottom Info block.
-* **Purpose:** Tangible visual representation of the business service.
-* **Animation:** Infinite float loop (`translateY(-10px)` to `translateY(+10px)` over 6s), hardware accelerated via `will-change: transform` to prevent browser lag.
-* **Package Switcher:** Premium pill tabs below the card. Changes Price and Description with a crossfade (`AnimatePresence`) utilizing a fixed min-height container to eliminate layout shift (shaking).
+**Right Content (Hero Background & Card):**
+* **Component:** Seamless full-screen backdrop representing the professional UAE Freelance Permit Card floating on a podium with Dubai skyline.
+* **Layout:** Full-width seamless backdrop with left gradient overlay mask to ensure content readability.
+* **Interaction:** Completely static background, card is baked into the visual backdrop. Zero duplicate cards or floating element overlays.
 
 **Bottom Row (Full Width):**
-* **Trust Signals:** (No NOC needed, 0% income tax, Bank account included, 100% visa eligible) displayed in a single, perfectly spaced continuous row spanning the entire screen width underneath both left and right content.
+* **Trust Signals:** (No NOC needed, 0% income tax, Bank account included, 100% visa eligible) displayed in a single, perfectly spaced rounded white card with 4 columns spanning underneath the content.
 
 ### 02 — Pain Points Section
 
