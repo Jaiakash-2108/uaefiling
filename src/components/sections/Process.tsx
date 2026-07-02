@@ -70,7 +70,7 @@ export default function Process() {
   ];
 
   return (
-    <section id="process" ref={sectionRef} className="w-full pt-[60px] pb-[50px] lg:pt-[80px] lg:pb-[60px] px-6 bg-[#FEFCF7] text-[#180F09]">
+    <section id="process" ref={sectionRef} className="w-full py-[60px] lg:py-[80px] px-6 bg-[#FEFCF7] text-[#180F09]">
       <div className="max-w-[1000px] mx-auto">
         
         {/* Header */}
@@ -209,18 +209,18 @@ export default function Process() {
 
           {/* Stepper Navigation Buttons */}
           <div className="flex items-center justify-between mt-2">
-            <Button
+            <Button 
               onClick={() => setActiveStep(Math.max(0, activeStep - 1))}
               disabled={activeStep === 0}
-              className="bg-[#FFFFFF] hover:bg-[#FEFCF7] text-[#180F09] border border-[rgba(24,15,9,0.08)] flex items-center gap-2 px-5 py-5 rounded-full text-sm font-sans"
+              className="bg-[#FFFFFF] hover:bg-[#FEFCF7] text-[#180F09] border border-[rgba(24,15,9,0.08)] flex items-center gap-2 px-5 py-5 rounded-lg text-sm font-sans"
             >
               <ChevronLeft size={16} />
               Previous
             </Button>
-            <Button
+            <Button 
               onClick={() => setActiveStep(Math.min(steps.length - 1, activeStep + 1))}
               disabled={activeStep === steps.length - 1}
-              className="bg-[#180F09] hover:bg-[#180F09]/95 text-[#FFFFFF] flex items-center gap-2 px-6 py-5 rounded-full text-sm font-sans"
+              className="bg-[#180F09] hover:bg-[#2A1F16] text-[#FFFFFF] flex items-center gap-2 px-6 py-5 rounded-lg text-sm font-sans"
             >
               Next
               <ChevronRight size={16} />

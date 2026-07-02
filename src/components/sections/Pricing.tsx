@@ -75,7 +75,7 @@ export default function Pricing() {
   ];
 
   return (
-    <section id="pricing" ref={sectionRef} className="w-full pt-[50px] pb-[40px] lg:pt-[60px] lg:pb-[50px] px-6 bg-[#FFFFFF] text-[#180F09]">
+    <section id="pricing" ref={sectionRef} className="w-full py-[60px] lg:py-[80px] px-6 bg-[#FFFFFF] text-[#180F09]">
       <div className="max-w-[1200px] mx-auto">
         
         {/* Header */}
@@ -183,11 +183,11 @@ export default function Pricing() {
                   </div>
 
                   {/* CTA Button */}
-                  <Button
-                    className={`w-full py-6 rounded-full font-sans text-sm font-semibold transition-all duration-300 mb-8 ${
-                      plan.isPopular
-                        ? "bg-[#180F09] hover:bg-[#180F09]/95 text-[#FFFFFF]"
-                        : "bg-[rgba(24,15,9,0.04)] hover:bg-[rgba(24,15,9,0.08)] text-[#180F09]"
+                  <Button 
+                    className={`w-full py-6 rounded-lg font-sans text-sm font-semibold transition-all duration-300 mb-8 ${
+                      plan.isPopular 
+                        ? 'bg-[#180F09] text-[#FFFFFF] hover:bg-[#2A1F16] shadow-sm' 
+                        : 'bg-[#FFFFFF] text-[#180F09] border border-[rgba(24,15,9,0.1)] hover:bg-[#FEFCF7]'
                     }`}
                   >
                     {plan.ctaText}

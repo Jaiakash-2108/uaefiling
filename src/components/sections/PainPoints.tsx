@@ -289,7 +289,7 @@ export default function PainPoints() {
         
         <button 
           onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-          className="bg-[#CF9A35] hover:bg-[#B8862E] text-white font-bold py-4 px-8 rounded-full transition-all duration-200 hover:scale-[1.02] shadow-[0_4px_14px_rgba(207,154,53,0.4)]"
+          className="bg-[#180F09] hover:bg-[#2A1F16] text-[#FFFFFF] font-sans font-semibold py-4 px-8 rounded-lg transition-all duration-300 shadow-sm"
         >
           Get My Licence
         </button>

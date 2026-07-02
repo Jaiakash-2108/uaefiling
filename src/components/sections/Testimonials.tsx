@@ -38,7 +38,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" ref={sectionRef} className="w-full pt-[50px] pb-[50px] lg:pt-[60px] lg:pb-[60px] px-6 bg-[#FEFCF7] text-[#180F09]">
+    <section id="testimonials" ref={sectionRef} className="w-full py-[60px] lg:py-[80px] px-6 bg-[#FEFCF7] text-[#180F09]">
       <div className="max-w-[1000px] mx-auto flex flex-col items-center">
         
         {/* Header */}

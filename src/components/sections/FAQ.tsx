@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
-import { ChevronDown, Phone } from "lucide-react";
+import { ChevronDown, Phone, Sparkles } from "lucide-react";
 
 interface FAQItem {
   question: string;
@@ -38,7 +38,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section id="faq" ref={sectionRef} className="w-full pt-[50px] pb-[80px] lg:pt-[60px] lg:pb-[100px] px-6 bg-[#FFFFFF] text-[#180F09]">
+    <section id="faq" ref={sectionRef} className="w-full py-[60px] lg:py-[80px] px-6 bg-[#FFFFFF] text-[#180F09]">
       <div className="max-w-[1100px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
@@ -49,8 +49,9 @@ export default function FAQ() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 25 }}
             transition={{ duration: 0.6 }}
           >
-            {/* Pill Badge */}
-            <span className="px-3.5 py-1 mb-6 text-[0.7rem] font-sans font-bold tracking-wider uppercase rounded-full bg-[rgba(24,15,9,0.02)] text-[rgba(24,15,9,0.5)] border border-[rgba(24,15,9,0.08)]">
+            {/* Eyebrow */}
+            <span className="text-[0.75rem] uppercase tracking-[0.14em] text-[#B8862E] font-sans font-semibold mb-4 flex items-center gap-2">
+              <Sparkles className="w-3.5 h-3.5" />
               FAQ
             </span>
 

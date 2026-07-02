@@ -183,7 +183,7 @@ export default function Professions() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <Button className="bg-[#180F09] hover:bg-[#180F09]/90 text-[#FFFFFF] font-sans px-8 py-6 text-base rounded-full shadow-lg transition-transform duration-300 hover:scale-102">
+          <Button size="lg" className="w-full sm:w-auto shadow-md hover:-translate-y-1">
             Start free consultation
           </Button>
         </motion.div>
